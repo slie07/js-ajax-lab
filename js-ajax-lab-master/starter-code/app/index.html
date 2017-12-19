@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>GA Library</title>
+        <link rel="stylesheet" href="css/style.css">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    </head>
+    <body>
+      <h1>Booktastic Booktacular</h1>
+      <form id="new-book">
+        <input type="text" name="book[title]" id="book-title" placeholder="book's title">
+        <input type="text" name="book[author]" id="book-author" placeholder="book's author">
+        <input type="text" name="book[image]" id="book-image" placeholder="book's image URL">
+        <input type="text" name="book[releaseDate]" id="book-release-date" placeholder="book's release date">
+        <input type="submit" value='Save My Book'>
+      </form>
+      <ul id="books">
+      </ul>
+      <script src="app.js"></script>
+    </body>
+
+</html>
